@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carlos Rios - Desenvolvedor</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <h2>CR</h2>
+            </div>
+            <button class="menu-toggle" aria-label="Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#about">Sobre mim</a></li>
+                    <li><a href="#blog">Experiência</a></li>
+                    <li><a href="#concepts">Hobbies</a></li>
+                    <li><a href="#portfolio">Projetos</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                    <li>
+                        <button class="theme-toggle">
+                            <span>DARK</span>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <div class="hero" id="home">
+            <div class="hero-content">
+                <p class="hello">Olá, sou</p>
+                <h1>CARLOS RIOS</h1>
+                <h2>Técnico em Análise e Desenvolvimento de Sistemas</h2>
+                <h2>Cursando Engenharia De Software</h2>
+                
+                <button class="download-resume">Baixar Resumo</button>
+                
+                <div class="social-links">
+                    <a href="https://github.com/CarlosSoft04" class="social-icon github">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/carlosrios04/" class="social-icon linkedin">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="#" class="social-icon instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="code-card">
+                <div class="code-content">
+                    <div class="line"><span class="line-number">1</span> class <span class="blue">Person</span> {</div>
+                    <div class="line"><span class="line-number">2</span>    constructor() {</div>
+                    <div class="line"><span class="line-number">3</span>        this.name = <span class="purple">"Carlos Rios"</span>;</div>
+                    <div class="line"><span class="line-number">4</span>        this.traits = [<span class="purple">"FullStack"</span>, <span class="purple">"DEV"</span>];</div>
+                    <div class="line"><span class="line-number">5</span>        this.age = new Date().getFullYear() - 2005;</div>
+                    <div class="line"><span class="line-number">6</span>    }</div>
+                    <div class="line"><span class="line-number">7</span> }</div>
+                </div>
+                <div class="code-dots">
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+            </div>
+        </div>
+
+        <section class="things-love" id="creative">
+            <h2>Áreas que atuo</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>FullStack</h3>
+                    <p>Experiência com desenvolvimento FullStack, criando aplicativos web modernos e responsivos.</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>BackEnd</h3>
+                    <p>Especializando em desenvolvimento Java com Spring Boot, criando APIs robustas e escaláveis.</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>Cloud Computing</h3>
+                    <p>Desenvolvimento de soluções escaláveis utilizando serviços em nuvem.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-me" id="about">
+            <h2>Sobre Mim</h2>
+            
+            <div class="about-content">
+                <div class="profile-image">
+                    <img src="../assets/logoEu.png" alt="Profile Picture">
+                </div>
+                
+                <div class="about-text">
+                    <p class="main-text">
+                        Técnico formado em Análise e Desenvolvimento de Sistemas e estudante em Engenharia de Software. Desenvolvedor <span class="highlight">FullStack</span>, atualmente me especializando em <span class="highlight">Backend: Java, Spring Boot</span>. Criando APIs aplicáveis e robustas. Pretendo aplicar minhas habilidades em desenvolvimento de software para criar soluções inovadoras e contribuir para o crescimento da empresa, enquanto aprimoro meu conhecimento técnico.
+                    </p>
+                    
+                    <p class="secondary-text">
+                        Eu também gosto de descobrir <span class="highlight">Inteligências Artificiais</span> que me ajudam a desenvolver e aprimorar códigos, documentar e fazer planejamentos.
+                        <span class="highlight">1 ano estudando versionamento de código, GitHub</span> e <span class="highlight">trabalho em equipe</span>. Procuro aprimorar frequentemente minhas habilidades técnicas e interpessoais.
+                    </p>
+                </div>
+            </div>
+
+            <div class="quotes-container">
+                <div class="quote-card">
+                    <p>"Simplicity is the baddest choice to be the best."</p>
+                </div>
+                <div class="quote-card">
+                    <p>"I know I'm not successful enough, but I'm passionate enough not to worry about success."</p>
+                </div>
+                <div class="quote-card">
+                    <p>"Creativity is the driver of an unstoppable train called Passion."</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="tech-stack" id="projects">
+            <div class="floating-techs">
+
+                <div class="tech-item">
+                    <img src="../assets/java.png" alt="">
+                    <span>Java</span>
+                </div>
+
+                <div class="tech-item">
+                    <img src="../assets/Spring.png" alt="Node.js" />
+                    <span>Spring Boot</span>
+                </div>
+
+                <div class="tech-item">
+                    <img src="../assets/mysql.png" alt="">
+                    <span>MySql</span>
+                </div>
+
+                <div class="tech-item">
+                    <img src="../assets/react.png" alt="">
+                    <span>React</span>
+                </div>
+                
+                <div class="tech-item">
+                    <img src="../assets//html.png" alt="">
+                    <span>HTML5</span>
+                </div>
+                <div class="tech-item">
+                    <img src="../assets/css.png" alt="CSS3" />
+                    <span>CSS3</span>
+                </div>
+                <div class="tech-item">
+                    <img src="../assets/javascript.png" alt="JavaScript" />
+                    <span>JavaScript</span>
+                </div>
+
+                <div class="tech-item">
+                    <img src="../assets/python.png" alt="">
+                    <span>Python</span>
+                </div>
+                <div class="tech-item">
+                    <img src="../assets/git.png" alt="Git" />
+                    <span>Git</span>
+                </div>
+               
+                <div class="tech-item">
+                    <img src="../assets/IA.png" alt="">
+                    <span>IA´s</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="experience" id="blog">
+            <h2>Experiência Profissional </h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div> 
+                    <div class="timeline-content">
+                        <div class="timeline-date">2024 - 06 -> 09</div>
+                        <h3>Customer Success</h3>
+                        <h4>DablioWeb Soluções Digitais LTDA</h4>
+                        <ul>
+                            <li>Contingência de Software, responsável por criar e gerenciar contas de desenvolvedor Google.</li>
+                            <li>Criação e configuração de aplicativos Mobile utilizando Android Studio.</li>
+                            <li>Garanti conformidade com as políticas de privacidade do Google.</li>
+                            <li>Publicação de 50+ aplicativos na Play Store.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2024 - 2024</div>
+                        <h3>Atendimento ao Cliente</h3>
+                        <h4>Premium Entretenimento</h4>
+                        <ul>
+                            <li>Trabalho temporário de Carnaval, atendendo mais de 300 pessoas no evento.</li>
+                            <li>Resolução de problemas de forma ágil e rápida com taxa de satisfação alta</li>
+                            <li>Aprimoramento de habilidades interpessoais como comunicação, resolução de problemas e trabalho em equipe</li>
+                        </ul>
+                    </div>
+                </div>
+
+                
+            </div>
+        </section>
+
+        <section class="hobbies" id="concepts">
+            <h2>Meus Hobbies</h2>
+            <div class="hobbies-grid">
+                <div class="hobby-card">
+                    <div class="hobby-icon">
+                        <i class="fas fa-futbol"></i>
+                    </div>
+                    <h3>Futebol</h3>
+                    <p>Gosto muito de jogar um futebol com meus amigos no final de semana.</p>
+                </div>
+
+                <div class="hobby-card">
+                    <div class="hobby-icon">
+                        <i class="fas fa-user-ninja"></i>
+                    </div>
+                    <h3>Jiu jitsu</h3>
+                    <p>É no tatame que descarrego minhas frustrações e problemas diários. Volto do treino renovado e pronto para o próximo dia</p>
+                </div>
+
+                <div class="hobby-card">
+                    <div class="hobby-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h3>Ler</h3>
+                    <p>Ler bons livros inspiradores e motivacionais, além dos benefícios que a leitura traz, me faz manter o foco.</p>
+                </div>
+
+                <div class="hobby-card">
+                    <div class="hobby-icon">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <h3>Música</h3>
+                    <p>Sou bem eclético quanto à música, ouço Vintage Culture, Natiruts, Linkin Park até Matuê e outros da cena do trap/rap.</p>
+                </div>
+
+               
+
+                <div class="hobby-card">
+                    <div class="hobby-icon">
+                        <i class="fas fa-coffee"></i>
+                    </div>
+                    <h3>Café</h3>
+                    <p>Como um bom programador, eu amo café. É o que me deixa acordado resolvendo bugs e desenvolvendo soluções.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects" id="portfolio">
+            <h2>Alguns Projetos</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="../assets/smarthome.jpeg" alt="Project 1">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://www.linkedin.com/posts/carlosrios04_smarthome-finalmente-eu-e-minha-equipe-activity-7209579518297100290-LIkj?utm_source=share&utm_medium=member_desktop" class="project-link"><i class="fab fa-github"></i> Code</a>
+                                <a href="https://www.linkedin.com/posts/carlosrios04_smarthome-finalmente-eu-e-minha-equipe-activity-7209579518297100290-LIkj?utm_source=share&utm_medium=member_desktop" class="project-link"><i class="fas fa-external-link-alt"></i> Live</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Smart Home</h3>
+                        <p>Sistema que permite controlar estado de lâmpadas a partir de seu smartphone.</p>
+                        <div class="project-tech">
+                            <span>Iot</span>
+                            <span>Node.js</span>
+                            <span>React</span>
+                            <span>MQTT</span>
+                            <span>MySQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="../assets//emailsender.png" alt="Project 2">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/CarlosSoft04/EmailSender--Api" class="project-link"><i class="fab fa-github"></i> Code</a>
+                                <a href="https://github.com/CarlosSoft04/EmailSender--Api" class="project-link"><i class="fas fa-external-link-alt"></i> Live</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Email Sender</h3>
+                        <p>Sistema de serviço de envio de email que utiliza 2 provedores de serviços de email diferentes, caso um falhe.</p>
+                        <div class="project-tech">
+                            <span>Java</span>
+                            <span>Spring Boot</span>
+                            <span>Api</span> 
+                            <span>MySql</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="../assets/bot.png" alt="Project 3">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/CarlosSoft04/BotWpp" class="project-link"><i class="fab fa-github"></i> Code</a>
+                                <a href="https://github.com/CarlosSoft04/BotWpp" class="project-link"><i class="fas fa-external-link-alt"></i> Live</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Bot WhatsApp</h3>
+                        <p>Bot para WhatsApp que contém 6 comandos principais. Ao iniciar o sistema, você poderá configurar o número que você quer que o bot atue. Após isso, o sistema te mostrará um QR Code para conectar o bot no WhatsApp.</p>
+                        <div class="project-tech">
+                            <span>JavaScript</span>
+                            <span>API WhatsApp</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <h2>Entre em Contato</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Vamos conversar sobre tudo!</h3>
+                    <p>Não gosta de formulários? Me envie um email diretamente para <a href="mailto:seu@email.com">seu@email.com</a></p>
+                    
+                    <div class="contact-social">
+                        <a href="https://github.com/CarlosSoft04" class="contact-social-link">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/carlosrios04/" class="contact-social-link">
+                            <i class="fab fa-linkedin"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="mailto:seu@email.com" class="contact-social-link">
+                            <i class="fas fa-envelope"></i>
+                            <span>Email</span>
+                        </a>
+                    </div>
+                </div>
+
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder=" " required>
+                        <label for="name">Seu Nome</label>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder=" " required>
+                        <label for="email">Seu Email</label>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder=" " required>
+                        <label for="subject">Assunto</label>
+                    </div>
+                    
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder=" " required></textarea>
+                        <label for="message">Mensagem</label>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">Enviar Mensagem</button>
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <div class="diagonal-bg"></div>
+    <script src="script.js"></script>
+</body>
+</html> 
